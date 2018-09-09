@@ -1,0 +1,18 @@
+Package: openintro
+Version: 1.7.6
+Title: Data Sets and Supplemental Functions from 'OpenIntro' Textbooks and Labs
+Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Mine", "\u00C7etinkaya-Rundel", email = "mine@rstudio.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6452-2420")),
+    person("David", "Diez", email = "david.m.diez@gmail.com", role = c("aut")),
+    person("Andrew", "Bray", email = "abray@reed.edu", role = c("aut")),
+    person("Christopher", "Barr", role = c("aut"))
+    )
+License: GPL-3
+Encoding: UTF-8
+LazyLoad: yes
+LazyData: yes
+URL: http://www.openintro.org/
+ByteCompile: true
+Depends: graphics, grDevices, stats, utils, R (>= 2.10), tidyverse
+RoxygenNote: 6.0.1.9000
