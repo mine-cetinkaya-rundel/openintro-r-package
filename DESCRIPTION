@@ -14,5 +14,16 @@ LazyLoad: yes
 LazyData: yes
 URL: http://www.openintro.org/
 ByteCompile: true
-Depends: graphics, grDevices, stats, utils, R (>= 2.10), tidyverse
+Depends: 
+  graphics, 
+  grDevices, 
+  stats, 
+  utils, 
+  R (>= 2.10)
+Suggests:
+  dplyr,
+  forcats,
+  lubridate,
+  ggplot2,
+  tidyr
 RoxygenNote: 6.0.1.9000
