@@ -150,8 +150,10 @@ Guardian Datablog</a>.</p>
 
 <span class='fu'>library</span>(<span class='no'>dplyr</span>)
 <span class='fu'>library</span>(<span class='no'>ggplot2</span>)
-<span class='fu'>library</span>(<span class='no'>lubridate</span>)
-
+<span class='fu'>library</span>(<span class='no'>lubridate</span>)</div><div class='output co'>#&gt; <span class='message'></span>
+#&gt; <span class='message'>Attaching package: ‘lubridate’</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from ‘package:base’:</span>
+#&gt; <span class='message'></span>
+#&gt; <span class='message'>    date</span></div><div class='input'>
 <span class='no'>london_murders</span> <span class='kw'>%&gt;%</span>
   <span class='fu'><a href='http://dplyr.tidyverse.org/reference/mutate.html'>mutate</a></span>(
     <span class='kw'>day_count</span> <span class='kw'>=</span> <span class='fu'>as.numeric</span>(<span class='no'>date</span> - <span class='fu'><a href='http://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span>(<span class='st'>"2006-01-01"</span>)),
